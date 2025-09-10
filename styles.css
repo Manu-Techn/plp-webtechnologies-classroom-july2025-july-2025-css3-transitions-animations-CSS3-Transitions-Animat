@@ -1,0 +1,78 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    color: black;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.container {
+    background: whitesmoke;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: georgia;
+    background-color: gray;
+    cursor: pointer;
+    
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease; /* smooth effect */
+}
+
+button:hover {
+    background-color:cadetblue; /* color changes on hover */
+    transform: scale(1.02); /* slight zoom effect */
+}
+
+input::placeholder {
+    color: black;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    background: whitesmoke;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.setlist-img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s ease, box-shadow 1s;
+    animation: float 1s ease-in-out infinite;
+}
+
+.setlist-img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 15px 30px rgba(o,o,o,o.3);
+}
