@@ -1,5 +1,7 @@
+// Adding a song to the list
 const songlist = document.getElementById("songList");
 
+// Get a value from the input field
 function addSong() {
     const input = document.getElementById("songInput");
     const song = input.ariaValueMax.trim();
@@ -10,4 +12,5 @@ function addSong() {
     songlist.appendChild(li);
 
     input.value = "";
+
 }
